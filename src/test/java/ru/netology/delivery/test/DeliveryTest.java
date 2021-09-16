@@ -16,8 +16,6 @@ public class DeliveryTest {
     @BeforeEach
     public void setUp() {
         open("http://localhost:9999");
-        $("[data-test-id=date] input").click();
-        $("[data-test-id=date] input").sendKeys(Keys.chord(Keys.CONTROL + "A", Keys.DELETE));
     }
 
     @Test
